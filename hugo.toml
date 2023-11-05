@@ -1,4 +1,6 @@
 baseURL = 'https://www.suqf.top/'
 languageCode = 'zh-cn'
 title = '个人博客'
+buildDrafts = true
+timeZone = 'Asia/Shanghai'
 theme = 'beautifulhugo'
