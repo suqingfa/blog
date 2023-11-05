@@ -1,5 +1,5 @@
 +++
-title = 'Hugo 使用总结'
+title = 'Hugo使用总结'
 date = 2023-11-05T21:23:22+08:00
 draft = true
 +++
@@ -12,9 +12,9 @@ https://gohugo.io/getting-started/quick-start/
 hugo new site blog
 cd blog
 git init
-git submodule add https://github.com/halogenica/beautifulhugo.git themes/beautifulhugo
-echo "theme = 'beautifulhugo'" >> hugo.toml
-hugo server --buildDrafts
+git submodule add https://github.com/nanxiaobei/hugo-paper.git themes/hugo-paper
+echo "theme = 'hugo-paper'" >> hugo.toml
+hugo server
 ```
 
 # 主题列表
@@ -42,6 +42,9 @@ Visit the [Hugo](https://gohugo.io) website!
 ```
 
 # 发布
+
 ```shell
-hugo --buildDrafts
+hugo
 ```
+
+# 配置
