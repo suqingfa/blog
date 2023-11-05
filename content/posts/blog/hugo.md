@@ -40,3 +40,8 @@ This is **bold** text, and this is *emphasized* text.
 
 Visit the [Hugo](https://gohugo.io) website!
 ```
+
+# 发布
+```shell
+hugo --buildDrafts
+```
