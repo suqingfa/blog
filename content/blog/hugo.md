@@ -48,3 +48,7 @@ hugo
 ```
 
 # 配置
+
+# 菜单
+
+https://gohugo.io/content-management/menus/
