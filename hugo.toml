@@ -2,6 +2,7 @@ baseURL = 'https://www.suqf.top/'
 language = 'zh'
 languageCode = 'zh-cn'
 defaultContentLanguage = 'zh'
+defaultContentLanguageInSubdir = true
 title = 'vector的个人博客'
 buildDrafts = true
 timeZone = 'Asia/Shanghai'
